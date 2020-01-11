@@ -55,3 +55,19 @@ main{
 .text{
     font-size: 16px;
 }
+
+@media screen and (max-width: 768px){
+    main{
+        width: 100%;
+    }
+    .branch{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 90%;
+        float: none;
+        padding: 10px;
+    }
+    .branch:last-child{
+        margin-right: 5%;
+    }
+}
